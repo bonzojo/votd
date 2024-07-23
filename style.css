@@ -39,7 +39,7 @@ body {
     margin: 5rem;
     padding: 2rem;
     width: 3rem auto;
-    line-height: 42px;
+    line-height: 3rem;
     border: solid 2px goldenrod;
     background-color: rgba(219, 195, 195, 0.555);
 }
@@ -56,7 +56,26 @@ body {
     color: black;
 }
 
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+    body{
+        text-align: center;
+    }
 
+    .header{
+        font-size: 1.5rem;
+        margin: 0.5rem auto;
+    }
+
+    #verseContainer {
+        margin: 0 auto;
+        width: 2rem auto;
+        line-height: 1.4rem;
+    }
+    
+    #verse{
+        font-size: 1rem; 
+    }
+}
 
 
 
