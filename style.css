@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'fontOfTheDay';
+    src: url('fonts/Gold\ Plated.ttf');
+}
+
+body {
+    margin: 4rem;
+    padding: 0 auto;
+    border: dotted 7px goldenrod;
+    text-align: center;
+    background-color: bisque; 
+    background-image: url('./background.jpg');
+}
+
+.bodyBorder {
+    border: solid 2rem whitesmoke;
+}
+
+.innerbodyBorder {
+    border: solid 1px black;
+}
+
+.header {
+    margin: 0 auto;
+    margin-top: 5rem;
+    padding: 0 auto;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'fontOfTheDay', sans-serif;
+    color: goldenrod;
+    -webkit-text-stroke: 0.8px black;
+}
+
+.header:hover{
+    color: blue;
+}
+
+#verseContainer {
+    margin: 5rem;
+    padding: 2rem;
+    width: 3rem auto;
+    line-height: 42px;
+    border: solid 2px goldenrod;
+    background-color: rgba(219, 195, 195, 0.555);
+}
+
+#verse {
+    font-size: 2rem;
+    color: goldenrod;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    -webkit-text-stroke: 1px black;
+    padding: 2rem auto;
+}
+
+#verse:hover{
+    color: black;
+}
+
+
+
+
+
