@@ -75,10 +75,7 @@ const february = new MonthObj('February', [
 ['For I am the Lord your God who takes hold of your right hand and says to you, Do not fear; I will help you. ~<em>Isaiah 41:13</em>~'],
 ['I lift up my eyes to the mountains—where does my help come from? My help comes from the Lord, the Maker of heaven and earth. ~<em>Psalm 121:1-2</em>~'],
 ['But seek first his kingdom and his righteousness, and all these things will be given to you as well. ~<em>Matthew 6:33</em>~'],
-['No weapon forged against you will prevail, and you will refute every tongue that accuses you. This is the heritage of the servants of the Lord, and this is their vindication from me, declares the Lord. ~<em>Isaiah 54:17</em>~'],
-['Above all else, guard your heart, for everything you do flows from it. ~<em>Proverbs 4:23</em>~'],
-['He has shown you, O mortal, what is good. And what does the Lord require of you? To act justly and to love mercy and to walk humbly with your God. ~<em>Micah 6:8</em>~'],
-['For no word from God will ever fail. ~<em>Luke 1:37</em>~']
+['No weapon forged against you will prevail, and you will refute every tongue that accuses you. This is the heritage of the servants of the Lord, and this is their vindication from me, declares the Lord. ~<em>Isaiah 54:17</em>~']
 ]);
 
 const march = new MonthObj('March', [
@@ -112,7 +109,8 @@ const march = new MonthObj('March', [
 ['The Lord is my light and my salvation—whom shall I fear? The Lord is the stronghold of my life—of whom shall I be afraid? ~<em>Psalm 27:1</em>~'],
 ['The Lord bless you and keep you; the Lord make his face shine on you and be gracious to you; the Lord turn his face toward you and give you peace. ~<em>Numbers 6:24-26</em>~'],
 ['The Lord is near to all who call on him, to all who call on him in truth. ~<em>Psalm 145:18</em>~'],
-['But those who hope in the Lord will renew their strength. They will soar on wings like eagles; they will run and not grow weary, they will walk and not be faint. ~<em>Isaiah 40:31</em>~']
+['But those who hope in the Lord will renew their strength. They will soar on wings like eagles; they will run and not grow weary, they will walk and not be faint. ~<em>Isaiah 40:31</em>~'],
+['Therefore, if anyone is in Christ, the new creation has come: The old has gone, the new is here! ~<em>2 Corinthians 5:17</em>~']
 ]);
 
 const april = new MonthObj('April', [
@@ -145,10 +143,7 @@ const april = new MonthObj('April', [
 ['The Lord is my light and my salvation—whom shall I fear? The Lord is the stronghold of my life—of whom shall I be afraid? ~<em>Psalm 27:1</em>~'],
 ['Above all else, guard your heart, for everything you do flows from it. ~<em>Proverbs 4:23</em>~'],
 ['For we are God’s handiwork, created in Christ Jesus to do good works, which God prepared in advance for us to do. ~<em>Ephesians 2:10</em>~'],
-['The earth is the Lord’s, and everything in it, the world, and all who live in it. ~<em>Psalm 24:1</em>~'],
-['Rejoice in the Lord always. I will say it again: Rejoice! ~<em>Philippians 4:4</em>~'],
-['Therefore, if anyone is in Christ, the new creation has come: The old has gone, the new is here! ~<em>2 Corinthians 5:17</em>~'],
-
+['The earth is the Lord’s, and everything in it, the world, and all who live in it. ~<em>Psalm 24:1</em>~']
 ]);
 
 const may = new MonthObj('May', [
@@ -199,7 +194,6 @@ const june = new MonthObj('June', [
 ['The Lord is near to all who call on him, to all who call on him in truth. ~<em>Psalm 145:18</em>~'],
 ['Do to others as you would have them do to you. ~<em>Luke 6:31</em>~'],
 ['Create in me a pure heart, O God, and renew a steadfast spirit within me. ~<em>Psalm 51:10</em>~'],
-['For no word from God will ever fail. ~<em>Luke 1:37</em>~'],
 ['Therefore go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit. ~<em>Matthew 28:19</em>~'],
 ['Jesus Christ is the same yesterday and today and forever. ~<em>Hebrews 13:8</em>~'],
 ['Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God. ~<em>Philippians 4:6</em>~'],
@@ -315,7 +309,6 @@ const september = new MonthObj('September', [
 ['The Lord is good to those whose hope is in him, to the one who seeks him; it is good to wait quietly for the salvation of the Lord. ~<em>Lamentations 3:25-26</em>~'],
 ['He makes me lie down in green pastures, he leads me beside quiet waters, he refreshes my soul. ~<em>Psalm 23:2-3</em>~'],
 ['And God is able to bless you abundantly, so that in all things at all times, having all that you need, you will abound in every good work. ~<em>2 Corinthians 9:8</em>~'],
-['Let all that you do be done in love. ~<em>1 Corinthians 16:14</em>~'],
 ['The Lord is near to the brokenhearted and saves the crushed in spirit. ~<em>Psalm 34:18</em>~'],
 ['And whatever you do, whether in word or deed, do it all in the name of the Lord Jesus, giving thanks to God the Father through him. ~<em>Colossians 3:17</em>~'],
 ['He will not let your foot slip—he who watches over you will not slumber. ~<em>Psalm 121:3</em>~'],
@@ -385,7 +378,6 @@ const november = new MonthObj('November', [
 ['He who dwells in the secret place of the Most High shall abide under the shadow of the Almighty. ~<em>Psalm 91:1</em>~'],
 ['The Lord is good to those who wait for him, to the soul who seeks him. ~<em>Lamentations 3:25</em>~'],
 ['You will keep in perfect peace those whose minds are steadfast, because they trust in you. ~<em>Isaiah 26:3</em>~'],
-['Rejoice in the Lord always. I will say it again: Rejoice! ~<em>Philippians 4:4</em>~'],
 ['And the peace of God, which transcends all understanding, will guard your hearts and your minds in Christ Jesus. ~<em>Philippians 4:7</em>~'],
 ['But those who hope in the Lord will renew their strength. They will soar on wings like eagles; they will run and not grow weary, they will walk and not be faint. ~<em>Isaiah 40:31</em>~'],
 ['For the Lord is righteous, he loves justice; the upright will see his face. ~<em>Psalm 11:7</em>~'],
@@ -424,6 +416,7 @@ const december = new MonthObj('December', [
 ['Let us hold unswervingly to the hope we profess, for he who promised is faithful. ~<em>Hebrews 10:23</em>~'],
 ['Therefore, if anyone is in Christ, the new creation has come: The old has gone, the new is here! ~<em>2 Corinthians 5:17</em>~'],
 ['But those who hope in the Lord will renew their strength. They will soar on wings like eagles; they will run and not grow weary, they will walk and not be faint. ~<em>Isaiah 40:31</em>~'],
+['For no word from God will ever fail. ~<em>Luke 1:37</em>~'],
 ['You will keep in perfect peace those whose minds are steadfast, because they trust in you. ~<em>Isaiah 26:3</em>~']
 ]);
 

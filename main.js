@@ -79,7 +79,7 @@ const year = currentDate.getFullYear();
     }
     
     const dayElement = document.getElementById('date');
-    dayElement.innerHTML = sanitizeHTML(`Today is a ${dayOfWeek} ${day}${suffix(day)} ${month} ${year}`);
+    dayElement.innerHTML = sanitizeHTML(`Today is ${dayOfWeek} ${day}${suffix(day)} ${month} ${year}`);
     
     const verseElement = document.getElementById('verse');
     verseElement.innerHTML = sanitizeHTML(docObject.verseArray[dayOfTheMonth]);
