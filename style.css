@@ -56,6 +56,15 @@ body {
     color: black;
 }
 
+.suffix {
+    font-size: 0.4em;
+    vertical-align: super;
+}
+
+.suffix:hover {
+    color: blue;
+}
+
 @media screen and (max-device-width: 480px) and (orientation: portrait) {
     body{
         text-align: center;

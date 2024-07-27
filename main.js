@@ -59,24 +59,31 @@ const month = monthsOfYear[currentDate.getMonth()];
 const year = currentDate.getFullYear();
 
     const suffix = (day) => {
-        if (day > 3 && day < 21) return 'th';
+        if (day > 3 && day < 21) return '<span class="suffix">th</span>';
         switch (day % 10) {
-            case 1: return "st";
-            case 2: return "nd";
-            case 3: return "rd";
-            default: return "th";
+            case 1: return '<span class="suffix">st</span>';
+            case 2: return '<span class="suffix">nd</span>';
+            case 3: return '<span class="suffix">rd</span>';
+            default: return '<span class="suffix">th</span>';
         }
     };
+
+
 
     function sanitizeHTML(html) {
         const tempDiv = document.createElement('div');
         tempDiv.textContent = html; // Escapes HTML
     
-        // Convert <em> tags back to HTML
-        tempDiv.innerHTML = tempDiv.innerHTML.replace(/&lt;em&gt;/g, '<em>').replace(/&lt;\/em&gt;/g, '</em>');
+        // Convert <em> and <span> tags back to HTML
+        tempDiv.innerHTML = tempDiv.innerHTML
+            .replace(/&lt;em&gt;/g, '<em>')
+            .replace(/&lt;\/em&gt;/g, '</em>')
+            .replace(/&lt;span class="suffix"&gt;/g, '<span class="suffix">')
+            .replace(/&lt;\/span&gt;/g, '</span>');
     
         return tempDiv.innerHTML;
     }
+    
     
     const dayElement = document.getElementById('date');
     dayElement.innerHTML = sanitizeHTML(`Today is ${dayOfWeek} ${day}${suffix(day)} ${month} ${year}`);
