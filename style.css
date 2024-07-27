@@ -86,5 +86,25 @@ body {
     }
 }
 
+@media screen and (min-device-width: 650px) and (orientation: portrait) {
+    body{
+        text-align: center;
+    }
+
+    .header{
+        font-size: 1.5rem;
+        margin: 0.5rem auto;
+    }
+
+    #verseContainer {
+        margin: 0 auto;
+        width: 2rem auto;
+        line-height: 1.4rem;
+    }
+    
+    #verse{
+        font-size: 1rem; 
+    }
+}
 
 
